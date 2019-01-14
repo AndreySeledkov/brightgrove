@@ -1,1 +1,1 @@
-web: java -jar target/task-1.0.0
+web: java -jar target/task-1.0.jar
