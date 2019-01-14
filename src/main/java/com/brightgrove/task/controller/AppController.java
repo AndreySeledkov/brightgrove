@@ -1,7 +1,6 @@
 package com.brightgrove.task.controller;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
@@ -67,6 +66,7 @@ public class AppController {
         }
         UserProfile userProfile = new UserProfile();
         userProfile.setType(UserProfileType.USER.getUserProfileType());
+        userProfile.setUser(user);
 
         Set<UserProfile> profiles = new HashSet<>();
         profiles.add(userProfile);
