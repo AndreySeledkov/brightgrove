@@ -10,7 +10,7 @@
 
     <properties>
         <tomcat.version>8.0.3</tomcat.version>
-        <start-class>spring-boot-example.Application</start-class>
+        <start-class>com.brightgrove.task.Application</start-class>
         <hibernate.version>4.3.2.Final</hibernate.version>
     </properties>
 
